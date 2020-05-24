@@ -21,3 +21,6 @@ with(sub_data, {
   plot(Global_reactive_power~Datetime, type="l", 
        ylab="Global Rective Power (kilowatts)",xlab="")
 })
+
+png(filename = "./plot4.png", width=480, height=480)
+dev.off()
